@@ -24,8 +24,12 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
   return (
       <div id='contactForm' className='mt-5'>
       <Parallax strength={600} bgImage={Stars}>
-        <div className='form__main container'>
-            <div className='offset-md-5 col-md-5'>
+          
+        <div className='form__main container row'>
+            <div className='offset-md-2 col-md-2'>
+                <h1>Contact/Query</h1>
+            </div>
+            <div className='offset-md-4 col-md-4'>
             <form className="contact-form" onSubmit={sendEmail}>  
                     <div className='form-group'>    
                         <label>Name</label>

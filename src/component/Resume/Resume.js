@@ -34,20 +34,9 @@ export default function Resume() {
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
     return (
-        <div id='resume'style={{margin:'50px'}}>
-           <div style={{paddingTop:'50px',borderTop:'#D3D3D3 0.5px solid'}} className='container'>
-               <div style={{borderBottom:'#A9A9A9 1px solid',marginBottom:'50px'}} className='row'>
-                    <div className='col-3'>
-                            <h4 style={{borderBottom:'#696969 3px solid'}}>SCHOOLING</h4>
-                    </div>
-                    <div className='offset-1'>
-                            <h4>Kendriya Vidyalaya, Rohtak</h4>
-                            <p style={{fontSize:'18px',fontStyle:'italic'}}>Passed Class 12th •May 2014</p>
-                    </div>
-               </div>
-           </div>
+        <div id='resume' >
            <div className='container'>
-               <div style={{borderBottom:'rgba(62,122,147,0.3) 1px solid',marginBottom:'50px'}} className='row'>
+               <div className='pt-3 row' style={{borderBottom:'rgba(62,122,147,0.3) 1px solid',borderTop:'#D3D3D3 0.5px solid',marginBottom:'30px'}} >
                     <div className='col-3'>
                             <h4 style={{borderBottom:'#A9A9A9 3px solid'}}>EDUCATION</h4>
                     </div>
@@ -59,7 +48,7 @@ export default function Resume() {
                </div>
            </div>
            <div className='container'>
-               <div style={{borderBottom:'#A9A9A9 1px solid',marginBottom:'50px'}} className='row'>
+               <div style={{borderBottom:'#A9A9A9 1px solid',marginBottom:'30px'}} className='row'>
                     <div className='col-3'>
                             <h4 style={{borderBottom:'#696969 3px solid'}}>WORK</h4>
                     </div>
