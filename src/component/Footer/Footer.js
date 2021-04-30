@@ -13,7 +13,7 @@ const Footer = () => {
                    
                 </div>
                 <p>
-                    Created By Deepak Bharti.
+                    Created By Deepak Bharti. Best viewed in desktop.
                 </p>
         </div>
     )
