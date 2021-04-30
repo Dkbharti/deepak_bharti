@@ -1,0 +1,58 @@
+
+.modelImg{
+    margin-top: 8vh;
+    width:800px;
+    height:600px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cross{
+    cursor: pointer;
+    position: fixed;
+    top:20px;
+    right:20px;
+    width:32px;
+    height:32px;
+    padding:0;
+    z-index:10;
+    color: #000;
+}
+
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: black;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.sliderImg{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

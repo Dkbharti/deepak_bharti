@@ -1,0 +1,55 @@
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 21;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.items{
+    margin: 0 10px;
+    padding: 0 5px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.contactMe{    
+    width: 50px;
+    color: lavenderblush;    
+    align-self: center;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.active{
+    color:#a7ff83;
+    &:hover{
+        text-decoration: none;
+        color:#a7ff83 ;
+    }
+}
+.brand{
+    z-index: 10;
+    text-decoration: none !important;
+    &:hover{
+        cursor: pointer;
+        text-decoration: none;
+    }
+}

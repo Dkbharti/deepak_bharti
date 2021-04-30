@@ -1,0 +1,22 @@
+.footerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.icons:hover{
+    color:#FF8C00;
+    cursor: pointer;
+}
+
+.links{
+    text-decoration: none !important;
+    color: #000;
+}

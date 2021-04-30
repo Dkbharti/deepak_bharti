@@ -1,0 +1,21 @@
+.works{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.btn{
+    min-width: 100px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    background: #141414;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.title{
+    text-align: center;
+    color: black;
+}

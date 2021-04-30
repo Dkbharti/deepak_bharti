@@ -1,0 +1,30 @@
+.form__main{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.btn__sub{
+    border: none;
+    width: 130px;
+    background: whitesmoke;
+    padding: 0 20px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.upArrow{
+    height: 55px;
+    width: 55px;
+    background: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+}
