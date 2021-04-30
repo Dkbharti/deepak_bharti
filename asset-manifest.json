@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deepak_bharti/static/css/main.4bfe80ae.chunk.css",
+    "main.css": "/deepak_bharti/static/css/main.2f891fe8.chunk.css",
     "main.js": "/deepak_bharti/static/js/main.3373e049.chunk.js",
     "main.js.map": "/deepak_bharti/static/js/main.3373e049.chunk.js.map",
     "runtime-main.js": "/deepak_bharti/static/js/runtime-main.58d58148.js",
@@ -10,7 +10,7 @@
     "static/js/2.e8318cf1.chunk.js.map": "/deepak_bharti/static/js/2.e8318cf1.chunk.js.map",
     "index.html": "/deepak_bharti/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/deepak_bharti/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.4bfe80ae.chunk.css.map": "/deepak_bharti/static/css/main.4bfe80ae.chunk.css.map",
+    "static/css/main.2f891fe8.chunk.css.map": "/deepak_bharti/static/css/main.2f891fe8.chunk.css.map",
     "static/js/2.e8318cf1.chunk.js.LICENSE.txt": "/deepak_bharti/static/js/2.e8318cf1.chunk.js.LICENSE.txt",
     "static/media/Workcycling.3bf26a9b.jpg": "/deepak_bharti/static/media/Workcycling.3bf26a9b.jpg",
     "static/media/dp.bd251983.jpg": "/deepak_bharti/static/media/dp.bd251983.jpg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.58d58148.js",
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.e8318cf1.chunk.js",
-    "static/css/main.4bfe80ae.chunk.css",
+    "static/css/main.2f891fe8.chunk.css",
     "static/js/main.3373e049.chunk.js"
   ]
 }
