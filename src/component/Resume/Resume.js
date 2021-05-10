@@ -25,12 +25,12 @@ export default function Resume() {
           "level": "75%"
         },
         {
-          "name": "Python With OOPS Concepts",
+          "name": "Python OOPS Concepts",
           "level": "85%"
         }
       ])
-      var Myskills = skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
+      let Myskills = skills.map(function(skills){
+        let className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
     return (
@@ -67,14 +67,12 @@ export default function Resume() {
                     <div className='col-3'>
                             <h4 style={{borderBottom:'#696969 3px solid'}}>SKILLS</h4>
                     </div>
-                    <div className='offset-1 col-7'>
-                    
-                    <div className="bars">
-                        <ul className="skills">
-                            {Myskills}
-                        </ul>
-				    </div>
-                            
+                    <div className=' col-8'>                    
+                      <div className="bars">
+                          <ul className="skills">
+                              {Myskills}
+                          </ul>
+                      </div>                            
                     </div>
                </div>
            </div>

@@ -40,9 +40,7 @@ const Work = () => {
                             />
                             <Card
                                 title='Cycling Hub'
-                                desc='The front-end was developed using React JS.
-                                The login authentication was done using Firebase.
-                                It includes cart funcationality.'
+                                desc='Biycycle Booking Website Created using HTML, Bootstrap and JS.'
                                 image={Cycling}
                                 url='https://dkbharti.github.io/Cycling-Hub/'
                                 btn='Link'
@@ -53,9 +51,8 @@ const Work = () => {
                     <div onClick={openHoopla}>
                         <Card                            
                             title='Hoopla Shopping Cart'
-                            desc='The front-end was developed using React JS.
-                            The login authentication was done using Firebase.
-                            It includes cart funcationality.'
+                            desc='Shopping Website with front end created with Material Ui &
+                                    React JS and backend created with Node JS & MongoDB.'
                             image={Hoopla}
                             btn='Images'
                         />                        
@@ -64,9 +61,8 @@ const Work = () => {
                     <div onClick={openSky}>
                         <Card                            
                             title='Sky Tracks'
-                            desc='The front-end was developed using React JS.
-                            The login authentication was done using Firebase.
-                            It includes cart funcationality.'
+                            desc='Flight Booking Web with front end created with Bootstrap &
+                                 React JS and backend created with Node JS & MongoDB.'
                             image={SkyTrack}
                             btn='Images'
                         />                        
@@ -78,9 +74,8 @@ const Work = () => {
                 <div onClick={openWander}>
                         <Card                            
                             title='Wanderlust'
-                            desc='The front-end was developed using React JS.
-                            The login authentication was done using Firebase.
-                            It includes cart funcationality.'
+                            desc='Holiday Booking Web with front end created with Bootstrap &
+                            React JS and backend created with Node JS & MongoDB.'
                             image={wander}
                             btn='Images'
                         />                        

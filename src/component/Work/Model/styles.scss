@@ -1,9 +1,11 @@
 
 .modelImg{
     margin-top: 8vh;
-    width:800px;
-    height:600px;
+    width:100%;
+    height:auto;
     border-radius: 10px 10px 10px 10px;
+    display: grid;
+    place-items: center;
 }
 
 .cross{

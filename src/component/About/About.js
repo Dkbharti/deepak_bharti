@@ -1,13 +1,14 @@
 import React from 'react'
 import './styles.scss'
 import GetAppIcon from '@material-ui/icons/GetApp';
-import Dp from '../../Assets/dp.jpg'
+import Dp from '../../Assets/dp.jpg';
+import Resume from '../../Assets/Resume_Deepak.pdf'
 export default function About() {
     return (
         <div id='aboutme' className={`${"aboutBack"} ${'mt-5'}`  } >
          <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-2 mt-1'>
+                    <div className='col-lg-2 col-sm-10 offset-sm-4 mt-1'>
                         <img style={{width:'150px',margin:'20px 0'}} className='rounded-circle' src={Dp} alt=""/>
                     </div>
                     <div  className='col-lg-6 offset-2 mt-3' >
@@ -22,7 +23,7 @@ export default function About() {
                                 <p >+91 7206724372</p>
                             </div>
                             <div className='col-8'>
-                                    <button className="resumeBtn">Download Resume <GetAppIcon/> </button>
+                                    <a href={Resume}><button className="resumeBtn">Download Resume <GetAppIcon/> </button></a>
                             </div>
                         </div>
                     </div>        

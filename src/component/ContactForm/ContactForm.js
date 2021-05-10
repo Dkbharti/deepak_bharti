@@ -5,10 +5,40 @@ import {Parallax} from 'react-parallax';
 import{animateScroll as scroll} from 'react-scroll'
 import './styles.scss';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+
  function ContactForm() {
 
-  function sendEmail(e) {
+
+    const [open, setOpen] = React.useState(false);
+    const [sub , setSub] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const validVal=(e)=>{
+      if(e.target.value!==''){
+        setSub(true)
+      }else{
+          setSub(false)
+      }
+  }
+  const sendEmail=(e)=> {
     e.preventDefault();
+    console.log(e.target.name.value)
+   
+    
+        
     emailjs.sendForm('gmail', 'template_nf16pjk', e.target, 'user_bW27nJAB99vxXvu8pVqfS')
       .then((result) => {
           console.log(result.text);
@@ -41,16 +71,35 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
                     </div>
                     <div className='form-group'>
                         <label >Message</label>
-                        <textarea className='form-control' name="message" />
+                        <textarea onChange={validVal} className='form-control' name="message" />
                     </div>
-                    <input className='btn__sub mt-2' type="submit" value="Send" />
+                    <input disabled={!sub} onClick={handleClickOpen} className='btn__sub mt-2' type="submit" value="Send" />
             </form>
             </div>
         </div>
         <div onClick={scrollToTop} className='upArrow'>
             <ExpandLessIcon  style={{fontSize:45}}/>
         </div>
-    </Parallax>    
+    </Parallax>
+        <Dialog
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="alert-dialog-title"
+            aria-describedby="alert-dialog-description"
+        >
+            
+            <DialogContent>
+            <DialogContentText id="alert-dialog-description">
+               Your message has been delivered successfully.
+            </DialogContentText>
+            </DialogContent>
+            <DialogActions>
+            
+          <Button onClick={handleClose} color="primary" autoFocus>
+            OK
+          </Button>
+        </DialogActions>
+      </Dialog>    
     </div>
   );
 }
