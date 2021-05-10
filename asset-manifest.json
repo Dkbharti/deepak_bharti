@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deepak_bharti/static/css/main.bb218bce.chunk.css",
-    "main.js": "/deepak_bharti/static/js/main.6c0a8bad.chunk.js",
-    "main.js.map": "/deepak_bharti/static/js/main.6c0a8bad.chunk.js.map",
+    "main.js": "/deepak_bharti/static/js/main.6e8bbc31.chunk.js",
+    "main.js.map": "/deepak_bharti/static/js/main.6e8bbc31.chunk.js.map",
     "runtime-main.js": "/deepak_bharti/static/js/runtime-main.58d58148.js",
     "runtime-main.js.map": "/deepak_bharti/static/js/runtime-main.58d58148.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/deepak_bharti/static/css/2.4c97ca4f.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.eee883cf.chunk.js",
     "static/css/main.bb218bce.chunk.css",
-    "static/js/main.6c0a8bad.chunk.js"
+    "static/js/main.6e8bbc31.chunk.js"
   ]
 }
