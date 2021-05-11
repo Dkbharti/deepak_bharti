@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/deepak_bharti/static/css/main.bb218bce.chunk.css",
-    "main.js": "/deepak_bharti/static/js/main.613a2b3b.chunk.js",
-    "main.js.map": "/deepak_bharti/static/js/main.613a2b3b.chunk.js.map",
+    "main.js": "/deepak_bharti/static/js/main.efe52ea9.chunk.js",
+    "main.js.map": "/deepak_bharti/static/js/main.efe52ea9.chunk.js.map",
     "runtime-main.js": "/deepak_bharti/static/js/runtime-main.58d58148.js",
     "runtime-main.js.map": "/deepak_bharti/static/js/runtime-main.58d58148.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/deepak_bharti/static/css/2.4c97ca4f.chunk.css",
@@ -12,22 +12,22 @@
     "static/css/2.4c97ca4f.chunk.css.map": "/deepak_bharti/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.bb218bce.chunk.css.map": "/deepak_bharti/static/css/main.bb218bce.chunk.css.map",
     "static/js/2.eee883cf.chunk.js.LICENSE.txt": "/deepak_bharti/static/js/2.eee883cf.chunk.js.LICENSE.txt",
-    "static/media/Resume_Deepak.e195a32f.pdf": "/deepak_bharti/static/media/Resume_Deepak.e195a32f.pdf",
-    "static/media/Workcycling.3bf26a9b.jpg": "/deepak_bharti/static/media/Workcycling.3bf26a9b.jpg",
-    "static/media/dp.a6f594f2.jpg": "/deepak_bharti/static/media/dp.a6f594f2.jpg",
+    "static/media/Resume_Deepak.d25177ed.pdf": "/deepak_bharti/static/media/Resume_Deepak.d25177ed.pdf",
+    "static/media/Workcycling.cc0d69c0.jpg": "/deepak_bharti/static/media/Workcycling.cc0d69c0.jpg",
+    "static/media/dp.f175d4d3.jpg": "/deepak_bharti/static/media/dp.f175d4d3.jpg",
+    "static/media/four.15e5b33d.jpg": "/deepak_bharti/static/media/four.15e5b33d.jpg",
     "static/media/four.20153777.jpg": "/deepak_bharti/static/media/four.20153777.jpg",
-    "static/media/four.417065cb.jpg": "/deepak_bharti/static/media/four.417065cb.jpg",
     "static/media/four.6fee4831.jpg": "/deepak_bharti/static/media/four.6fee4831.jpg",
     "static/media/one.07b0b0f9.jpg": "/deepak_bharti/static/media/one.07b0b0f9.jpg",
-    "static/media/one.1b362110.jpg": "/deepak_bharti/static/media/one.1b362110.jpg",
-    "static/media/one.619eca6f.jpg": "/deepak_bharti/static/media/one.619eca6f.jpg",
-    "static/media/stars.5e2720e4.jpg": "/deepak_bharti/static/media/stars.5e2720e4.jpg",
+    "static/media/one.45a83fc8.jpg": "/deepak_bharti/static/media/one.45a83fc8.jpg",
+    "static/media/one.bc1329ef.jpg": "/deepak_bharti/static/media/one.bc1329ef.jpg",
+    "static/media/stars.a6c1fd33.jpg": "/deepak_bharti/static/media/stars.a6c1fd33.jpg",
+    "static/media/three.12103bd6.jpg": "/deepak_bharti/static/media/three.12103bd6.jpg",
     "static/media/three.2dd22c76.jpg": "/deepak_bharti/static/media/three.2dd22c76.jpg",
     "static/media/three.d61a66ab.jpg": "/deepak_bharti/static/media/three.d61a66ab.jpg",
-    "static/media/three.e9c23691.jpg": "/deepak_bharti/static/media/three.e9c23691.jpg",
-    "static/media/two.0c5c93ff.jpg": "/deepak_bharti/static/media/two.0c5c93ff.jpg",
-    "static/media/two.3248d318.jpg": "/deepak_bharti/static/media/two.3248d318.jpg",
     "static/media/two.4951e273.jpg": "/deepak_bharti/static/media/two.4951e273.jpg",
+    "static/media/two.728059cd.jpg": "/deepak_bharti/static/media/two.728059cd.jpg",
+    "static/media/two.e23abc64.jpg": "/deepak_bharti/static/media/two.e23abc64.jpg",
     "static/media/workAmazon.a176414a.jpg": "/deepak_bharti/static/media/workAmazon.a176414a.jpg",
     "static/media/workHoopla.3241f9c5.jpg": "/deepak_bharti/static/media/workHoopla.3241f9c5.jpg"
   },
@@ -36,6 +36,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.eee883cf.chunk.js",
     "static/css/main.bb218bce.chunk.css",
-    "static/js/main.613a2b3b.chunk.js"
+    "static/js/main.efe52ea9.chunk.js"
   ]
 }
