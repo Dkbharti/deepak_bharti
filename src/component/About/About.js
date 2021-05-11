@@ -8,7 +8,7 @@ export default function About() {
         <div id='aboutme' className={`${"aboutBack"} ${'mt-5'}`  } >
          <div className='container'>
                 <div className='row'>
-                    <div className='col-lg-2 col-sm-10 offset-sm-4 mt-1'>
+                    <div className='col-lg-2  mt-1'>
                         <img style={{width:'150px',margin:'20px 0'}} className='rounded-circle' src={Dp} alt=""/>
                     </div>
                     <div  className='col-lg-6 offset-2 mt-3' >
